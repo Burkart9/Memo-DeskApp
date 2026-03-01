@@ -1,0 +1,56 @@
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Data (keep the data directory but ignore actual data files)
+data/reminders.json
+data/lists.json
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Linting
+.flake8
+.pylint
+
+# Misc
+*.log
+.env
+.env.local
